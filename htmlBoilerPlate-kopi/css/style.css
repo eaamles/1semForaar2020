@@ -1,3 +1,105 @@
 /**
  * fil: css/style.css
  **/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background-color: chartreuse;
+    background-image: url(../images/univers-1.jpg) /* bg Background images, mangler ; til sidst i koden */
+    color:#ffffff;  /* txt farves */
+}
+
+p{
+    
+    color:red;
+    background-color: 000;
+    width: 33%;
+    font-size: large;
+    
+    /* her bruges en google font poppins */
+    font-family: 'poppins' , sans-serif;
+
+    
+
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+#en{
+    
+background-color: darkorange;
+position: absolute;
+top: 100px;
+right: 387px;
+transform: rotate(180deg);
+
+}
+#to{
+background-color: blue;    
+}
+
+
+#gallerikasse{
+    background-color: #fff;
+  
+}
+.galleri{
+    position: relative;
+    padding: 2em;
+    float: right;
+    width: 250px;
+    height: auto;
+    margin: 40px;
+}
+
+nav{
+    background-color: #000;
+    color: #fff;    
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
+nav ul li {
+    display: inline;
+    padding: 2em;
+}
+
+.himmel{
+    background-color: grey;
+    position: absolute;
+    top: 100px;
+    right: 387px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
